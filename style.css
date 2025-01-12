@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    padding: 30px 0;
+    background-color: black;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: #F57520;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 25px;
+}
+.hero{
+    padding: 80px 0;
+    background-image: url(./img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero h1{
+font-size: 96px;
+font-weight: 700;
+line-height: 118.08px;
+letter-spacing: 0.02em;
+color: white;
+}
+.hero p{
+width: 645px;
+color: white;
+font-size: 18px;
+font-weight: 600;
+line-height: 28.8px;
+letter-spacing: 0.01em;
+margin: 48px 0;
+}
+.btn{
+font-size: 16px;
+font-weight: 600;
+line-height: 19.68px;
+color: white;
+border-radius: 16px;
+border: none;
+background-color: #F57520;
+padding: 16px 45px;
+}
+.hero2{
+    padding-left: 80px 0;
+    background-color: grey;
+    text-align: center;
+}
+.hero2 h2{
+font-size: 64px;
+font-weight: 800;
+line-height: 78.72px;
+letter-spacing: 0.05em;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+.card{
+    width: 400px;
+    background-color: black;
+    text-align: left;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.card h3,p{
+    margin: 25px;
+}
+.card:hover{
+    background-color: #F57520;
+    color: black;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.question{
+    padding: 50px 0;
+    background-color: #F57520;
+    background-image: url(./img/image\ 86.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.question h2{
+font-size: 40px;
+font-weight: 800;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+color: white;
+margin-bottom: 90px;
+}
+.question input{
+    width: 302px;
+    height: 46px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 16px 16px 0;
+}
+.question textarea{
+    width: 624px;
+    height: 154px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 16px 16px 0;
+}
+.btn2{
+    width: 624px;
+    height: 54px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.68px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F57520;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+footer{
+    background-color: black;
+    height: 370px;
+    padding-top: 91px;
+}
+.container div{
+    color: white;
+    font-size: 20px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p i{
+    color: grey;
+    font-size: 15px;
+}
